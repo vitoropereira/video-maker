@@ -79,7 +79,7 @@ async function robot(content) {
     }
 
     async function fetcWatsonAndReuturnKeywords(sentence) {
-        pro = new Promise((resolve, reject) => {
+        return new Promise((resolve, reject) => {
             nlu.analyze({
                 text: sentence,
                 features: {
@@ -90,15 +90,13 @@ async function robot(content) {
                     throw error
                 }
 
-                const keywords = response.result.keywords.map((keyword) => {
-                     return keyword.text
-                 })
+                const keywords = response.keywords.map((keyword) => {
+                    return keyword.text
+                })
                 
                 resolve(keywords)
             })
         })
-
-        return pro
     }
 }
 module.exports = robot
