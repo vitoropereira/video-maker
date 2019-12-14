@@ -64,3 +64,6 @@ typings/
 credencials/*.jason
 
 content.json 
+
+content/*.png 
+.DS_Store
