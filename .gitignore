@@ -61,7 +61,7 @@ typings/
 .next
 
 # credentials 
-credencials/*.jason
+credentials/*.json
 
 content.json 
 
