@@ -66,5 +66,10 @@ credentials/*.json
 content.json 
 
 content/*.png 
-content/*.jpg 
+content/*.jpg
+content/*.mov
+content/*.js
+Adobe After Effects Auto-Save
+tamplate.aep Logs
+
 .DS_Store
