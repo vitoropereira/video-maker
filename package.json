@@ -18,7 +18,7 @@
   "homepage": "https://github.com/VOP1234/video-maker#readme",
   "dependencies": {
     "algorithmia": "^0.3.10",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "gm": "^1.23.1",
     "googleapis": "^46.0.0",
     "ibm-watson": "^5.2.0",
