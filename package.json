@@ -20,7 +20,7 @@
     "algorithmia": "^0.3.10",
     "express": "^4.17.3",
     "gm": "^1.23.1",
-    "googleapis": "^46.0.0",
+    "googleapis": "^113.0.0",
     "ibm-watson": "^5.6.1",
     "image-downloader": "^3.5.0",
     "imagemagick": "^0.1.3",
